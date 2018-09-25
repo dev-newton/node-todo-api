@@ -23,8 +23,8 @@ mongoose.connect('mongodb://localhost:27017/TodoApp',
     //     console.log(result)
     // });
 
-    db.collection('Users').findOneAndDelete({ name: 'Jane'}).then((result) => {
-        console.log(result)
-    });
+    // db.collection('Users').findOneAndDelete({ name: 'Jane'}).then((result) => {
+    //     console.log(result)
+    // });
     // db.close();
 });
